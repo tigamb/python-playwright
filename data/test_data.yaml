@@ -1,0 +1,148 @@
+# Login page
+login:
+  main screen text:
+    - name: main_text_compare
+      title: "Swag Labs"
+      username_placeholder: "Username"
+      password_placeholder: "Password"
+      login_button: "Login"
+
+  negative:
+    - name: empty_credentials
+      username: ""
+      password: ""
+      error: "Epic sadface: Username is required44"
+
+    - name: empty_username
+      username: ""
+      password: "standard_user"
+      error: "Epic sadface: Username is required33"
+
+    - name: empty_password
+      username: "standard_user"
+      password: ""
+      error: "Epic sadface: Password is required22"
+
+    - name: wrong_user_name_or_password
+      username: "standard_user13"
+      password: "standard_user12"
+      error: "Epic sadface: Username and password do not match any user in this service"
+
+  locked user:
+    - name: locked_user
+      username: "locked_out_user"
+      password: "secret_sauce"
+      error: "Epic sadface: Sorry, this user has been locked out."
+
+  positive:
+    - name: valid_user
+      username: "standard_user"
+      password: "secret_sauce"
+
+# Products page
+products:
+  page_title:
+    - name: title
+      text: "Products"
+
+  item_no_1:
+    - name: item_1
+      title: "Sauce Labs Backpack"
+      desc: "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."
+      price: "$29.99"
+
+  item_no_2:
+    - name: item_2
+      title: "Sauce Labs Bike Light"
+      desc: "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included."
+      price: "$9.99"
+
+  item_no_3:
+    - name: item_3
+      title: "Sauce Labs Bolt T-Shirt"
+      desc: "Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt."
+      price: "$15.99"
+
+  item_no_4:
+    - name: item_4
+      title: "Sauce Labs Fleece Jacket"
+      desc: "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office."
+      price: "$49.99"
+
+  item_no_5:
+    - name: item_5
+      title: "Sauce Labs Onesie"
+      desc: "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel."
+      price: "$7.99"
+
+  item_no_6:
+    - name: item_6
+      title: "Test.allTheThings() T-Shirt (Red)"
+      desc: "This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton."
+      price: "$15.99"
+
+# Inside the item - Inventory page
+item_page:
+  item_no_1:
+    - name: item_1
+      title: "Sauce Labs Backpack"
+      desc: "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."
+      price: "$29.99"
+
+  item_no_2:
+    - name: item_2
+      title: "Sauce Labs Bike Light"
+      desc: "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included."
+      price: "$9.99"
+
+  item_no_3:
+    - name: item_3
+      title: "Sauce Labs Bolt T-Shirt"
+      desc: "Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt."
+      price: "$15.99"
+
+  item_no_4:
+    - name: item_4
+      title: "Sauce Labs Fleece Jacket"
+      desc: "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office."
+      price: "$49.99"
+
+  item_no_5:
+    - name: item_5
+      title: "Sauce Labs Onesie"
+      desc: "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel."
+      price: "$7.99"
+
+  item_no_6:
+    - name: item_6
+      title: "Test.allTheThings() T-Shirt (Red)"
+      desc: "This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton."
+      price: "$15.99"
+
+# Cart page
+cart:
+  page_title:
+    - name: title
+      text: "Your Cart"
+
+  remove_item:
+    - name: remove_item_from_cart
+      item_name: "Sauce Labs Backpack"
+
+# Checkout1 page
+checkout step1:
+  page_title:
+    - name: title
+      text: "Checkout: Your Information"
+
+# Checkout2 page
+checkout step2:
+  page_title:
+    - name: title
+      text: "Checkout: Overview"
+
+# Checkout3 page
+checkout complete:
+  page_title:
+    - name: title
+      text: "Checkout: Complete!"
