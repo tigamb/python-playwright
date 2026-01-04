@@ -1,0 +1,8 @@
+playwright~=1.52.0
+pytest-playwright
+pytest>=7.0.0
+allure-pytest==2.15.0
+allure-python-commons~=2.15.0
+PyAutoGUI~=0.9.54
+PyYAML~=6.0.3
+pytest-order
