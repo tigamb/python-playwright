@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from tests.base_test_04012026 import BaseTest
+from tests.base_test import BaseTest
 from utils.yaml_loader import TestDataLoader as TD
 
 
