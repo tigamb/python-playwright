@@ -1,5 +1,5 @@
 playwright~=1.52.0
-pytest-playwright
+pytest-playwright~=0.5.1  # TODO: Remove this later
 pytest>=7.0.0
 allure-pytest==2.15.0
 allure-python-commons~=2.15.0
